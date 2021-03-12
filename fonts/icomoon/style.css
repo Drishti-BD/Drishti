@@ -24,8 +24,11 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-brain:before{
+  content: "\e278"
+}
 .icon-asterisk:before {
-  content: "\f069";
+  content: "\e278";
 }
 .icon-plus:before {
   content: "\f067";
