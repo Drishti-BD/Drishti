@@ -105,16 +105,19 @@
       <div class="container">
         <div class="row mb-5">
           <div class="col-lg-7 mx-auto text-center">
-            <span class="subheading">Early DR Screening To Prevent Blindness</span>
-            <h2 class="section-heading">Accurate DR Screening</h2>
-            <p>Drishti provides accurate Diabetic Retinopathy preliminary screening in seconds --- All with AI</p>
-            <p>Drishti is not meant to replace doctors, but work in conjuction with specialists to provide initial 
-              screening for those who cannot afford full diagnosis. Any diagnosis from Drishti should not be taken as 
-              100% accurate, but should be a guideline for further action. Even if you received a diagnosis of no DR,
-              please be very careful and continue to monitor your eye situation. Continue to get free screenings if possible 
-              to ensure you do not progress into developing DR eventually.
+            <h2 class="section-heading">Convolutional Nets for DR Screening</h2>
+            <p>
+              In collaboration with BRAC University, we have published a validation study of the performance of
+              our neural network on Bangladeshi Eyes. Our paper is available on ArXiv <a href="https://arxiv.org/">here</a>.
+              The paper is also currently in review for a top journal.
             </p>
-            <p class="mb-4"><a href="screening.html" class="btn btn-primary">Begin Screening</a></p>
+            <p>
+              We use a DenseNet-121 state-of-the-art image classification model to perform diagnosis based
+              retinal scans. We train our algorithm on a publically available dataset and perform grade-based screening.
+              A diagram of the DenseNet convolutional block with our retinal scans is shown below. Our paper goes in-depth
+              into the architectural details and training procedures.
+            </p>
+            <img src="images/model_fig.png" width = "100%">
           </div>
         </div>
 
